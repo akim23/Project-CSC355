@@ -5,9 +5,9 @@ from tkinter import colorchooser
 root = Tk()
 root.title( 'Image' )
 root.geometry("500x1000")
-root.iconbitmap('C:/Users/atk41/OneDrive/Documents/windowsreport-logo.png')
+root.iconbitmap('Image File')
 
-my_img = ImageTk.PhotoImage(Image.open('C:/Users/atk41/OneDrive/Documents/windowsreport-logo.png'))
+my_img = ImageTk.PhotoImage(Image.open('Image File'))
 my_label = Label(image=my_img)
 my_label.pack()
 
