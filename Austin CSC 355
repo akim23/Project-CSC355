@@ -38,3 +38,6 @@ button_quit = Button(root, text="Exit Program", command=root.quit)
 button_quit.pack()
 
 root.mainloop()
+
+
+#If there are anymore additions you'd like me to add I'll try and add it. I'm still having trouble with lines 31 and 32 at the moment. 
